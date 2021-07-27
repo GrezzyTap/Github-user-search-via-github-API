@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Github search engine</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <div class="container-fluid"> 
+    <br><br>
+    <h1 style="text-align: center;" class="display-4">Github username search app</h1>
+    <div class="row">
+      <div class="col-md-12">
+      
+        <input class="form-control" type="text" placeholder="Github username search"
+        autocomplete="off" id="gusername" >
+  
+        <br>
+        <button id="btn" type="button" class="btn btn-danger">Search</button>
+      </div>
+
+    </div>
+
+    <div class="container" id="box1">
+      <div class="card" style="width: 18rem;" id="box">
+      <div id="res">See your results here</div>
+      <div class="card-body">
+        <h5 id="res1"></h5>
+        <p id="res2"></p>
+        <div id="res4"></div>
+        <div id="res3"></div>
+      </div>
+      </div>
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
+
+  </body>
+</html>
